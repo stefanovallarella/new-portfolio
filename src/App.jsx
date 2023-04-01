@@ -4,6 +4,7 @@ import Tech from "./modules/Tech";
 import About from "./modules/About";
 import Quotes from "./modules/Quotes";
 import Footer from "./modules/Footer";
+import "./assets/styles/App.css";
 
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
@@ -29,7 +30,7 @@ i18n.use(initReactI18next).init({
 
 function App() {
   return (
-    <div className="main-container">
+    <div className="main">
       <Intro />
       <Experience />
       <Tech />

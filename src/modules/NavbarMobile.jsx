@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../components/LanguageSwitcher";
-import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -58,11 +57,8 @@ export default function Navbar() {
             </a>
           </li>
         </ul>
-
         <LanguageSwitcher />
       </nav>
-
-      <MobileMenu />
     </div>
   );
 }
