@@ -20,7 +20,7 @@ export default function Intro() {
   }, []);
 
   return (
-    <div id="home" className="intro global-max-width">
+    <div id="home" className="intro">
       <Particles
         id="tsparticles"
         init={particlesInit}
