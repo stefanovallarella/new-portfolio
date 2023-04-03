@@ -4,6 +4,7 @@ import Tech from "./modules/Tech";
 import About from "./modules/About";
 import Quotes from "./modules/Quotes";
 import Footer from "./modules/Footer";
+import MobileMenu from "./modules/MobileMenu";
 import "./assets/styles/App.css";
 
 import i18n from "i18next";
@@ -37,6 +38,7 @@ function App() {
       <About />
       <Quotes />
       <Footer />
+      <MobileMenu />
     </div>
   );
 }

@@ -1,16 +1,21 @@
+import { useTranslation } from "react-i18next";
 import Avatar from "../assets/img/stefano-avatar.svg";
 
 export default function IntroAbout() {
+  const { t } = useTranslation();
+
   return (
     <div className="intro__about-container">
       <div className="intro__about-content">
-        <p className="intro__about-title intro__about-title--mobile">¡Hola!</p>
+        <p className="intro__about-title intro__about-title--mobile">
+          {t("introabout.title")}
+        </p>
         <div className="intro__about-text">
           <p className="intro__about-title intro__about-title--desktop">
-            ¡Hola!
+            {t("introabout.title")}
           </p>
           <p className="intro__about-description">
-            Soy Stefano, FullStack Developer establecido en Rosario, Argentina.
+            {t("introabout.description")}
           </p>
         </div>
 

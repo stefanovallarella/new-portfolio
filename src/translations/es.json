@@ -2,5 +2,7 @@
   "navbar.home": "Inicio",
   "navbar.work": "Experiencia",
   "navbar.about": "Acerca de",
-  "navbar.contact": "Contacto"
+  "navbar.contact": "Contacto",
+  "introabout.title": "¡Hola!",
+  "introabout.description": " Soy Stefano, FullStack Developer establecido en Rosario, Argentina."
 }

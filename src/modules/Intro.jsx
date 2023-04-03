@@ -1,6 +1,5 @@
 import Header from "./Header";
 import IntroAbout from "../components/IntroAbout";
-import MobileMenu from "./MobileMenu";
 
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
@@ -31,7 +30,6 @@ export default function Intro() {
       />
       <Header />
       <IntroAbout />
-      <MobileMenu />
     </div>
   );
 }
