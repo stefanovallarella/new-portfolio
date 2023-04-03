@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../components/LanguageSwitcher";
-import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -15,24 +14,24 @@ export default function Navbar() {
   return (
     <div className="nav">
       <div className="nav__title-container">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="13"
-          height="23"
-          viewBox="0 0 13 23"
-          fill="none"
-        >
-          <path
-            d="M12.8955 11.5C12.8955 17.8513 7.74678 23 1.3955 23H-1.43051e-05L-1.43051e-05 0H1.3955C7.74678 0 12.8955 5.14873 12.8955 11.5V11.5Z"
-            fill="#E34234"
-          />
-        </svg>
         <a
           href="https://www.linkedin.com/in/stefanovallarella/"
           target="_blank"
           className="nav__title"
         >
-          Stefano Vallarella
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="13"
+            height="23"
+            viewBox="0 0 13 23"
+            fill="none"
+          >
+            <path
+              d="M12.8955 11.5C12.8955 17.8513 7.74678 23 1.3955 23H-1.43051e-05L-1.43051e-05 0H1.3955C7.74678 0 12.8955 5.14873 12.8955 11.5V11.5Z"
+              fill="#E34234"
+            />
+          </svg>
+          <p className="nav__title-name">Stefano Vallarella</p>
         </a>
       </div>
       <nav className="nav__container">
@@ -61,8 +60,6 @@ export default function Navbar() {
 
         <LanguageSwitcher />
       </nav>
-
-      <MobileMenu />
     </div>
   );
 }

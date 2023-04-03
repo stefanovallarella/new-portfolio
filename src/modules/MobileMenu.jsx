@@ -10,11 +10,28 @@ export default function MenuMobileSwitcher() {
   };
 
   return (
-    <div
-      className={`mobile-menu ${isMenuOpen ? "open" : ""}`}
-      onClick={toggleMenu}
-    >
-      {isMenuOpen ? <CrossSvg /> : <HamburgerSvg />}
+    <div className="mobile-menu">
+      <div
+        className={`mobile-menu__icon ${isMenuOpen ? "open" : ""}`}
+        onClick={toggleMenu}
+      >
+        {isMenuOpen ? <CrossSvg /> : <HamburgerSvg />}
+      </div>
+
+      {/* Mobile menu overlay */}
+      {isMenuOpen && (
+        <div
+          className={`mobile-menu__overlay ${
+            isMenuOpen ? "mobile-menu__overlay--visible" : ""
+          }`}
+        >
+          <ul>
+            <li>Section 1</li>
+            <li>Section 2</li>
+            <li>Section 3</li>
+          </ul>
+        </div>
+      )}
     </div>
   );
 }
