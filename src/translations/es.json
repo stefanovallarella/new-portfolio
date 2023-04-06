@@ -4,5 +4,64 @@
   "navbar.about": "Acerca de",
   "navbar.contact": "Contacto",
   "introabout.title": "¡Hola!",
-  "introabout.description": " Soy Stefano, FullStack Developer establecido en Rosario, Argentina."
+  "introabout.description": " Soy Stefano , FullStack Developer establecido en Rosario, Argentina.",
+  "experience.title": "Sobre mi experiencia",
+  "experience.experiences": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "Onlines & co.",
+      "location": "Rosario, Argentina.",
+      "date": "2019",
+      "intro": "Estas son algunas responsabilidades y proyectos en los que trabajé en",
+      "projects": [
+        "Rebuilt all the UX/UI for a platform built with Vue JS. Made a new version for every existing page, mobile-first and using self-created SVG files, icons and specific colors for each client.",
+        "Front-end work using React JS, Styled Components, custom CSS, Context API, Redux, and some custom behaviors related to new libraries.",
+        "Maintenance of existing React Native app for iOS/Android. Bug fixes and development of new features."
+      ],
+      "stack": ["Javascript", "VueJS", "NuxtJS", "Typescript", "ReactJS"]
+    },
+    {
+      "id": 2,
+      "title": "FullStack Developer",
+      "company": "EducaciónIT",
+      "location": "Buenos Aires, Argentina.",
+      "date": "2020",
+      "intro": "Estas son algunas responsabilidades y proyectos en los que trabajé en",
+      "projects": [
+        "Rebuilt all the UX/UI for a platform built with Vue JS. Made a new version for every existing page, mobile-first and using self-created SVG files, icons and specific colors for each client.",
+        "Front-end work using React JS, Styled Components, custom CSS, Context API, Redux, and some custom behaviors related to new libraries.",
+        "Maintenance of existing React Native app for iOS/Android. Bug fixes and development of new features."
+      ],
+      "stack": ["Javascript", "VueJS", "NuxtJS", "Typescript", "ReactJS"]
+    },
+    {
+      "id": 3,
+      "title": "FullStack Developer",
+      "company": "EducaciónIT",
+      "location": "Buenos Aires, Argentina.",
+      "date": "2022",
+      "intro": "Estas son algunas responsabilidades y proyectos en los que trabajé en",
+      "projects": [
+        "Rebuilt all the UX/UI for a platform built with Vue JS. Made a new version for every existing page, mobile-first and using self-created SVG files, icons and specific colors for each client.",
+        "Front-end work using React JS, Styled Components, custom CSS, Context API, Redux, and some custom behaviors related to new libraries.",
+        "Maintenance of existing React Native app for iOS/Android. Bug fixes and development of new features."
+      ],
+      "stack": ["Javascript", "VueJS", "NuxtJS", "Typescript", "ReactJS"]
+    },
+    {
+      "id": 4,
+      "title": "FullStack Developer",
+      "company": "Navent",
+      "location": "Buenos Aires, Argentina.",
+      "date": "2023",
+      "intro": "Estas son algunas responsabilidades y proyectos en los que trabajé en",
+      "projects": [
+        "Rebuilt all the UX/UI for a platform built with Vue JS. Made a new version for every existing page, mobile-first and using self-created SVG files, icons and specific colors for each client.",
+        "Front-end work using React JS, Styled Components, custom CSS, Context API, Redux, and some custom behaviors related to new libraries.",
+        "Maintenance of existing React Native app for iOS/Android. Bug fixes and development of new features."
+      ],
+      "stack": ["Javascript", "VueJS", "NuxtJS", "Typescript", "ReactJS"]
+    }
+  ]
 }

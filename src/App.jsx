@@ -5,7 +5,7 @@ import About from "./modules/About";
 import Quotes from "./modules/Quotes";
 import Footer from "./modules/Footer";
 import MobileMenu from "./modules/MobileMenu";
-import SocialMedia from "./components/SocialMedia";
+// import SocialMedia from "./components/SocialMedia";
 import "./assets/styles/App.css";
 
 import i18n from "i18next";
@@ -45,7 +45,7 @@ function App() {
       <hr className="main__hr" />
       <Footer />
       <MobileMenu />
-      <SocialMedia />
+      {/* <SocialMedia /> */}
     </div>
   );
 }

@@ -466,12 +466,114 @@
   }
 }
 
+/* Social Media*/
+
 .social-media {
+  width: 25px;
+
+  height: auto;
+  position: fixed;
+  left: 50px;
+  bottom: 100px;
+  z-index: 999;
+}
+
+.social-media__container {
+  margin: 10px 0;
+}
+
+.social-media__link {
+}
+
+.social-media__icon {
+  max-width: 25px;
+}
+.social-media__icon path {
+  fill: var(--color-gray);
+}
+
+.social-media__container:hover .social-media__icon path {
+  fill: var(--color-secondary-dark);
+}
+
+.experience {
+}
+
+.experience__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience__title {
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--color-secondary-dark);
+  margin: 0;
+}
+
+@media (min-width: 480px) {
+  .experience__title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 800px) {
+  .experience__title {
+    font-size: 48px;
+    line-height: 48px;
+    margin: 40px 0;
+  }
+}
+
+.experience__title-dot {
+  color: var(--color-secondary-light);
+}
+
+.experience-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+}
+
+.experience-item__year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-item__year-text {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--color-secondary-dark);
+  margin-left: 10px;
+}
+
+.experience-item__content {
+}
+
+.experience-item__content-title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--color-secondary-dark);
+}
+
+.experience-item__content-company {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--color-primary);
+  letter-spacing: 1px;
+}
+
+.experience-item__content-location {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--color-gray);
 }
