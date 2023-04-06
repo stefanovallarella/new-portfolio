@@ -1,3 +1,6 @@
+import ExperienceItemContentProjects from "./ExperienceItemContentProjects";
+import ExperienceItemContentStack from "./ExperienceItemContentStack";
+
 export default function ExperienceItemContent({ experience }) {
   return (
     <div className="experience-item__content">
@@ -23,6 +26,9 @@ export default function ExperienceItemContent({ experience }) {
 
         <p>{experience.location}</p>
       </div>
+
+      <ExperienceItemContentProjects experience={experience} />
+      <ExperienceItemContentStack stack={experience.stack} />
     </div>
   );
 }
