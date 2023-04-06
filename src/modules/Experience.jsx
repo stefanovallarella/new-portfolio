@@ -17,6 +17,11 @@ export default function Experience() {
         {experiences.map((experience) => (
           <ExperienceItem experience={experience} />
         ))}
+
+        <div className="experience__end">
+          <div className="experience__end-circle"></div>
+          {t("experience.end")}
+        </div>
       </div>
     </div>
   );

@@ -2,11 +2,11 @@ export default function ExperienceItemContentProjects({ experience }) {
   return (
     <div className="experience-item__content-projects">
       <p className="experience-item__content-projects-intro">
-        {experience.intro} {experience.company}
+        {experience.intro}{" "}{experience.company}
       </p>
       {experience.projects.map((project) => (
         <div className="experience-item__content-project">
-          <div>
+          <div className="experience-item__content-project-svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="7"
@@ -21,7 +21,7 @@ export default function ExperienceItemContentProjects({ experience }) {
             </svg>
           </div>
 
-          <p>{project}</p>
+          <p className="experience-item__content-project-item">{project}</p>
         </div>
       ))}
     </div>

@@ -5,10 +5,10 @@ export default function ExperienceItemContent({ experience }) {
   return (
     <div className="experience-item__content">
       <p className="experience-item__content-title">
-        {experience.title}
-        <span className="experience-item__content-company">
-          @ {experience.company}
-        </span>
+        {experience.title} {" "} <br />
+        <a href={experience.companyUrl} target="_blank" className="experience-item__content-company">
+           @ {experience.company}
+        </a>
       </p>
       <div className="experience-item__content-location">
         <svg
@@ -24,7 +24,7 @@ export default function ExperienceItemContent({ experience }) {
           />
         </svg>
 
-        <p>{experience.location}</p>
+        <p className="experience-item__content-location-text">{experience.location}</p>
       </div>
 
       <ExperienceItemContentProjects experience={experience} />

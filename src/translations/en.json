@@ -11,6 +11,7 @@
       "id": 1,
       "title": "Frontend Developer",
       "company": "Onlines & co.",
+      "companyUrl": "https://onlines.com.ar/",
       "location": "Rosario, Argentina.",
       "date": "2019",
       "intro": "These are some responsabilities & projects I worked on at",
@@ -25,6 +26,7 @@
       "id": 2,
       "title": "FullStack Developer",
       "company": "EducaciónIT",
+      "companyUrl": "https://onlines.com.ar/",
       "location": "Buenos Aires, Argentina.",
       "date": "2020",
       "intro": "These are some responsabilities & projects I worked on at",
@@ -39,6 +41,7 @@
       "id": 3,
       "title": "FullStack Developer",
       "company": "EducaciónIT",
+      "companyUrl": "https://onlines.com.ar/",
       "location": "Buenos Aires, Argentina.",
       "date": "2022",
       "intro": "These are some responsabilities & projects I worked on at",
@@ -53,6 +56,7 @@
       "id": 4,
       "title": "FullStack Developer",
       "company": "Navent",
+      "companyUrl": "https://onlines.com.ar/",
       "location": "Buenos Aires, Argentina.",
       "date": "2023",
       "intro": "These are some responsabilities & projects I worked on at",
@@ -63,5 +67,6 @@
       ],
       "stack": ["Javascript", "VueJS", "NuxtJS", "Typescript", "ReactJS"]
     }
-  ]
+  ],
+  "experience.end": "Present"
 }

@@ -19,6 +19,7 @@ export default function ExperienceItem({ experience }) {
         <span className="experience-item__year-text" key={experience.id}>
           {experience.date}
         </span>
+        <div className="experience-item__year-line"></div>
       </div>
 
       <ExperienceItemContent experience={experience} />
