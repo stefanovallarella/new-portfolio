@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 import ExperienceItem from "../components/ExperienceItem";
+import PhoneVector from "../assets/img/phone-vector";
+import TrapezoidVector from "../assets/img/trapezoid-vector";
 
 export default function Experience() {
   const { t } = useTranslation();
@@ -23,6 +25,8 @@ export default function Experience() {
           {t("experience.end")}
         </div>
       </div>
+      <PhoneVector />
+      <TrapezoidVector />
     </div>
   );
 }

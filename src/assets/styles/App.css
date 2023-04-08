@@ -497,6 +497,7 @@
 }
 
 .experience {
+  position: relative;
 }
 
 .experience__container {
@@ -505,7 +506,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 .experience__title {
   font-size: 28px;
@@ -544,7 +544,7 @@
   padding-bottom: 16px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .experience-item {
     flex-direction: row;
   }
@@ -562,14 +562,13 @@
   margin-bottom: 20px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .experience-item__year {
     margin-bottom: 0;
   }
 }
 
-
-.experience-item__year-line{
+.experience-item__year-line {
   position: absolute;
   top: 0;
   left: 62%;
@@ -599,7 +598,6 @@
   margin-bottom: 12px;
 }
 
-
 @media (min-width: 480px) {
   .experience-item__content-title {
     line-height: 20px;
@@ -609,10 +607,10 @@
   }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .experience-item__content-title {
     font-size: 24px;
-  line-height: 24px;
+    line-height: 24px;
   }
 }
 
@@ -634,7 +632,7 @@
   margin-bottom: 24px;
 }
 
-.experience-item__content-location-text{
+.experience-item__content-location-text {
   font-size: 14px;
   line-height: 14px;
   margin-left: 5px;
@@ -655,16 +653,15 @@
   margin-bottom: 16px;
 }
 
-.experience-item__content-project-svg{
+.experience-item__content-project-svg {
   display: flex;
   padding-top: 3px;
 }
 
-.experience-item__content-project-item{
+.experience-item__content-project-item {
   font-size: 16px;
   line-height: 18px;
   margin-left: 4px;
-  
 }
 
 .experience-item__content-stacks {
@@ -673,15 +670,13 @@
   flex-wrap: nowrap;
   display: flex;
   margin: 24px 0 12px;
-  
 }
 
 .experience-item__content-stacks::-webkit-scrollbar {
   display: none; /* hide scrollbar in WebKit-based browsers */
 }
 
-
-.experience-item__content-stack{
+.experience-item__content-stack {
   font-size: 14px;
   line-height: 14px;
   font-weight: 300;
@@ -692,8 +687,7 @@
   border-radius: 40px;
 }
 
-
-.experience__end{
+.experience__end {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -703,12 +697,156 @@
   font-weight: 600;
   width: 100%;
   max-width: 600px;
-
 }
-.experience__end-circle{
+.experience__end-circle {
   width: 17px;
   height: 17px;
   border-radius: 50%;
   background-color: var(--color-secondary-dark);
   margin-right: 10px;
+}
+
+.phone-vector {
+  display: none;
+  position: absolute;
+  right: 80px;
+  bottom: 20%;
+}
+
+@media (min-width: 1280px) {
+  .phone-vector {
+    display: block;
+  }
+}
+
+.trapezoid-vector {
+  display: none;
+  position: absolute;
+  left: 80px;
+  top: 20%;
+}
+
+@media (min-width: 1280px) {
+  .trapezoid-vector {
+    display: block;
+  }
+}
+
+/* Tech section */
+
+.tech__title {
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--color-secondary-dark);
+  margin: 30px 0;
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+  .tech__title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 800px) {
+  .tech__title {
+    font-size: 48px;
+    line-height: 48px;
+    margin: 40px 0;
+  }
+}
+
+.tech__title-dot {
+  color: var(--color-secondary-light);
+}
+
+/* .tech__technologies {
+  color: black;
+  white-space: nowrap; 
+  overflow: hidden; 
+}
+
+.tech__technologies-item {
+  display: inline-block;
+  padding-right: 1em; 
+  animation: move-strings 10s linear infinite;
+}
+
+@keyframes move-strings {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+.tech__technologies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech__technologies-items-container {
+  width: 200%;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.tech__technologies-items-content {
+  width: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+}
+
+.tech__technologies-item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 50px;
+  font-weight: 300;
+  color: var(--color-gray);
+  margin: 0 5px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate {
+  animation: scroll 50s linear infinite;
+}
+.fade-start,
+.fade-end {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.4),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+  z-index: 1;
+}
+
+.fade-start {
+  left: 0;
+}
+
+.fade-end {
+  right: 0;
+  transform: rotateY(180deg);
 }

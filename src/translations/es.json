@@ -68,5 +68,18 @@
       "stack": ["Javascript", "VueJS", "NuxtJS", "Typescript", "ReactJS"]
     }
   ],
-  "experience.end": "Presente"
+  "experience.end": "Presente",
+  "tech.title": "tecnologías con las que trabajo",
+  "tech.technologies": [
+    "vuejs",
+    "nuxtjs",
+    "reactjs",
+    "sequelize",
+    "sql",
+    "tailwind",
+    "aws",
+    "docker",
+    "android studio",
+    "kotlin"
+  ]
 }
