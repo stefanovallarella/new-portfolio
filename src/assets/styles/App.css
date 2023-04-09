@@ -762,91 +762,68 @@
   color: var(--color-secondary-light);
 }
 
-/* .tech__technologies {
-  color: black;
-  white-space: nowrap; 
-  overflow: hidden; 
-}
-
-.tech__technologies-item {
-  display: inline-block;
-  padding-right: 1em; 
-  animation: move-strings 10s linear infinite;
-}
-
-@keyframes move-strings {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-} */
-.tech__technologies {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.tech__technologies-items-container {
-  width: 200%;
-  height: 100px;
-  overflow: hidden;
-  position: relative;
-}
-
-.tech__technologies-items-content {
-  width: 200%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 0;
-}
-
-.tech__technologies-item {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 50px;
-  font-weight: 300;
-  color: var(--color-gray);
-  margin: 0 5px;
+.tech__slider {
+  width: 100%;
 }
 
 @keyframes scroll {
   0% {
-    transform: translateX(0%);
+    left: 0;
   }
   100% {
-    transform: translateX(-100%);
+    left: -100%;
   }
 }
 
-.animate {
-  animation: scroll 50s linear infinite;
+.slider {
+  background: white;
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
-.fade-start,
-.fade-end {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 50%;
+
+.slider:before,
+.slider:after {
   background: linear-gradient(
-    to left,
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.4),
-    rgb(255, 255, 255),
-    rgb(255, 255, 255)
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
   );
-  z-index: 1;
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 40%;
+  z-index: 2;
 }
 
-.fade-start {
-  left: 0;
-}
-
-.fade-end {
+.slider:after {
   right: 0;
-  transform: rotateY(180deg);
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider:before {
+  left: 0;
+  top: 0;
+}
+
+.slide-track {
+  position: absolute;
+  left: 0;
+  animation: scroll 30s linear infinite;
+  display: flex;
+  width: 200%;
+}
+
+.slide {
+  height: 100px;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  color: var(--color-gray);
 }
