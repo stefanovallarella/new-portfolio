@@ -1,10 +1,11 @@
 import { useTranslation } from "react-i18next";
-import Avatar from "../assets/img/stefano-avatar.svg";
+import AvatarPrimary from "../assets/img/stefano-avatar-primary.svg";
+import AvatarSecondary from "../assets/img/stefano-avatar-secondary.svg";
 import CodeSnippetVector from "../assets/img/code-snippet-vector";
 import CupVector from "../assets/img/cup-vector";
 
 export default function IntroAbout() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <div className="intro__about-container global-max-width">
@@ -21,7 +22,10 @@ export default function IntroAbout() {
           </p>
         </div>
 
-        <img className="intro__about-avatar" src={Avatar} />
+        <img
+          className="intro__about-avatar"
+          src={i18n.language === "en" ? AvatarPrimary : AvatarSecondary}
+        />
       </div>
 
       <CodeSnippetVector />

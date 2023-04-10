@@ -36,11 +36,10 @@ function App() {
       <Intro />
       <hr className="main__hr" />
       <Experience />
-      <hr className="main__hr" />
+      {/* <hr className="main__hr" /> */}
       <Tech />
-      <hr className="main__hr" />
+      {/* <hr className="main__hr" /> */}
       <About />
-      <hr className="main__hr" />
       <Quotes />
       <hr className="main__hr" />
       <Footer />

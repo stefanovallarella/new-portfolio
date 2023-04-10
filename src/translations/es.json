@@ -81,5 +81,12 @@
     "docker",
     "android",
     "kotlin"
-  ]
+  ],
+  "about.title": "About me",
+  "about.description": "Soy un desarrollador, diseñador y lingüista que ha estado construyendo para la web de alguna manera desde 2020. Me especializo en accesibilidad, rendimiento y usabilidad sin sacrificar la creatividad.\n\n Desde que comencé mi viaje como diseñador independiente hace más de 11 años, he realizado trabajos remotos para agencias, asesorado para nuevas empresas y colaborado con personas talentosas para crear productos digitales para uso comercial y de consumo. Soy tranquilamente confiado, naturalmente curioso y trabajo perpetuamente para mejorar mis habilidades, un problema de diseño a la vez.",
+  "quotes.quote1": "one day at a time",
+  "quotes.quote2": "the mind is the limit",
+  "footer.title": "Contacto",
+  "footer.resume": "CV",
+  "footer.download": "descargar"
 }
