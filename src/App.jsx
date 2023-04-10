@@ -43,7 +43,7 @@ function App() {
       <Quotes />
       <hr className="main__hr" />
       <Footer />
-      <MobileMenu />
+      {/* <MobileMenu /> */}
       {/* <SocialMedia /> */}
     </div>
   );

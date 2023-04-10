@@ -21,6 +21,20 @@
   --color-gray: #a6a6a6;
 }
 
+html::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: rgba(166, 166, 166, 0.4);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: rgba(227, 66, 52, 0.85);
+  border-radius: 5px;
+}
+
 body {
   margin: 0;
   display: flex;
@@ -46,13 +60,6 @@ ul {
   padding: 0;
   list-style: none;
 }
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-} */
 
 #root {
   margin: 0 auto;

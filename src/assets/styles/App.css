@@ -80,6 +80,14 @@
   color: var(--color-primary);
 }
 
+.intro__about-title--en {
+  color: var(--color-primary);
+}
+
+.intro__about-title--es {
+  color: var(--color-secondary-light);
+}
+
 @media (min-width: 640px) {
   .intro__about-title {
     font-size: 60px;
@@ -172,12 +180,19 @@
 
 .header {
   display: flex;
-  position: absolute;
+  position: fixed;
+  background-color: #ffffff;
   width: 100%;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
+}
+
+@media (min-width: 800px) {
+  .header {
+    position: absolute;
+  }
 }
 
 /* Navbar */
@@ -303,11 +318,12 @@
 /* Mobile Menu */
 
 .mobile-menu {
-  /* position: absolute;
+  /* width: 100vw;
+  height: 100vh;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  z-index: 999; */
+  z-index: 99; */
 }
 
 @media (min-width: 800px) {
@@ -319,7 +335,8 @@
 .mobile-menu__icon {
   position: absolute;
   top: 21px;
-  right: 23px;
+  /* right: 23px; */
+  right: 0;
   z-index: 9999;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
@@ -433,13 +450,6 @@
 .experience {
   color: var(--color-secondary-dark);
 }
-
-/* .svg-container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-} */
 
 .code-snippet-vector {
   display: none;
@@ -854,8 +864,8 @@
 @media (min-width: 800px) {
   .about__description {
     width: calc(800px - 48px);
-    font-size: 30px;
-    line-height: 34px;
+    font-size: 24px;
+    line-height: 28px;
     margin-bottom: 40px auto;
   }
 }

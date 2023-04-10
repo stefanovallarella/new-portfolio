@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../components/LanguageSwitcher";
+import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   const { t } = useTranslation();
@@ -36,11 +37,11 @@ export default function Navbar() {
       </div>
       <nav className="nav__container">
         <ul>
-          <li>
+          {/* <li>
             <a href="#" data-section-id="home" onClick={handleClick}>
               {t("navbar.home")}
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#" data-section-id="work" onClick={handleClick}>
               {t("navbar.work")}
@@ -56,10 +57,16 @@ export default function Navbar() {
               {t("navbar.contact")}
             </a>
           </li>
+          <li>
+            <a href="#" without rel="noopener noreferrer" target="_blank">
+              {t("footer.resume")}
+            </a>
+          </li>
         </ul>
 
         <LanguageSwitcher />
       </nav>
+      <MobileMenu />
     </div>
   );
 }

@@ -11,10 +11,20 @@ export default function IntroAbout() {
     <div className="intro__about-container global-max-width">
       <div className="intro__about-content">
         <p className="intro__about-title intro__about-title--mobile">
+          {/* className={`intro__about-title intro__about-title--mobile ${
+            i18n.language === "es"
+              ? "intro__about-title--es"
+              : "intro__about-title--en"
+          }`} */}
           {t("introabout.title")}
         </p>
         <div className="intro__about-text">
           <p className="intro__about-title intro__about-title--desktop">
+            {/* className={`intro__about-title intro__about-title--desktop ${
+              i18n.language === "es"
+                ? "intro__about-title--es"
+                : "intro__about-title--en"
+            }`} */}
             {t("introabout.title")}
           </p>
           <p className="intro__about-description">

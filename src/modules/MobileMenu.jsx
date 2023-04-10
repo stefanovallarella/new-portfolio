@@ -18,7 +18,7 @@ export default function MenuMobileSwitcher() {
     const sectionId = e.target.getAttribute("data-section-id");
     const section = document.querySelector(`#${sectionId}`);
     toggleMenu();
-    section.scrollIntoView({ behavior: "smooth", block: "center" });
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   useEffect(() => {

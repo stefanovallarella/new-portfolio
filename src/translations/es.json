@@ -83,10 +83,11 @@
     "kotlin"
   ],
   "about.title": "About me",
-  "about.description": "Soy un desarrollador, diseñador y lingüista que ha estado construyendo para la web de alguna manera desde 2020. Me especializo en accesibilidad, rendimiento y usabilidad sin sacrificar la creatividad.\n\n Desde que comencé mi viaje como diseñador independiente hace más de 11 años, he realizado trabajos remotos para agencias, asesorado para nuevas empresas y colaborado con personas talentosas para crear productos digitales para uso comercial y de consumo. Soy tranquilamente confiado, naturalmente curioso y trabajo perpetuamente para mejorar mis habilidades, un problema de diseño a la vez.",
+  "about.description": " Soy un Semi Senior Front End Developer con una gran pasión por la tecnología. He acumulado más de dos años y medio de experiencia en el desarrollo de aplicaciones y sitios web utilizando frameworks avanzados como VueJS, ReactJS y NuxtJS. Actualmente, estoy ampliando mis conocimientos trabajando en aplicaciones móviles nativas de Android en Kotlin.\n\nA lo largo de mi carrera, he aprendido que el trabajo en equipo es fundamental para lograr un aprendizaje de calidad y una mejora continua. En mi puesto anterior en EducacionIT, me encargaba del desarrollo y mantenimiento de las aplicaciones y productos de la empresa utilizando VueJS, NuxtJS, JS, Typescript, Docker y AWS. También busqué activamente nuevos desafíos que me ayudaron a mejorar mi conocimiento en back-end, como la construcción de APIs REST en Node.js / Typescript / Sequelize.\n\nActualmente, trabajo en Navent como Full Stack Developer, responsable del desarrollo de aplicaciones móviles nativas de Android en Kotlin.\n\nMi carrera en la programación comenzó en 2019 cuando desarrollé mis propias aplicaciones nativas de Android en JAVA. Luego, me concentré en el desarrollo web, donde pasé dos años perfeccionando mis habilidades en VueJS y NuxtJS.\n\nComo Front End Developer, me destaco en el pensamiento crítico, la resolución de problemas, la comunicación y la escucha activa, el liderazgo, la planificación y gestión del tiempo, la flexibilidad y la responsabilidad. Mi experiencia técnica incluye Git, GitHub, Docker, Npm, Yarn, Webpack, Adobe Photoshop, Adobe Illustrator, Figma, Miro, Trello, Scrum y Scrumban.\n\nEn mi tiempo libre, disfruto creando listas de reproducción, yendo al gimnasio, jugando al tenis, construyendo proyectos personales y pasando tiempo con amigos.",
   "quotes.quote1": "one day at a time",
   "quotes.quote2": "the mind is the limit",
   "footer.title": "Contacto",
   "footer.resume": "CV",
-  "footer.download": "descargar"
+  "footer.download": "descargar",
+  "footer.copyright": "Diseñado & Desarrollado"
 }
