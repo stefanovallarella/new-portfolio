@@ -128,8 +128,19 @@
   color: var(--color-secondary-dark);
 }
 
+.intro__about-description p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
 @media (min-width: 480px) {
   .intro__about-description {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .intro__about-description p {
     font-size: 30px;
     line-height: 40px;
   }
@@ -137,6 +148,10 @@
 
 @media (min-width: 1024px) {
   .intro__about-description {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .intro__about-description p {
     font-size: 48px;
     line-height: 60px;
   }
@@ -855,20 +870,36 @@
 }
 
 .about__description {
-  white-space: pre-line;
   width: 100%;
-  font-size: 18px;
-  line-height: 22px;
   color: var(--color-secondary-dark);
   margin-bottom: 30px;
+}
+
+.about__description p {
+  margin-bottom: 24px;
+  white-space: pre-line;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.about__description a {
+  color: var(--color-secondary-light);
+}
+
+.about__description a:hover {
+  color: var(--color-primary);
 }
 
 @media (min-width: 800px) {
   .about__description {
     width: calc(800px - 48px);
+
+    margin-bottom: 40px auto;
+  }
+
+  .about__description p {
     font-size: 24px;
     line-height: 28px;
-    margin-bottom: 40px auto;
   }
 }
 
@@ -1016,6 +1047,7 @@
   }
   .footer__email:hover .footer__email-link-arrow {
     display: inline-block;
+    animation: jump-shaking 1s infinite;
   }
 }
 
@@ -1091,6 +1123,34 @@
 @media (min-width: 800px) {
   .footer__social-link {
     font-size: 16px;
+  }
+}
+
+.footer__social-link:hover .arrow-link-vector {
+  animation: jump-shaking 0.85s infinite;
+}
+
+@keyframes jump-shaking {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateY(-3px);
+  }
+  35% {
+    transform: translateY(-3px) rotate(17deg);
+  }
+  55% {
+    transform: translateY(-3px) rotate(-17deg);
+  }
+  65% {
+    transform: translateY(-3px) rotate(17deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(-17deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
   }
 }
 

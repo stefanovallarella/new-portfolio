@@ -4,7 +4,6 @@ import Tech from "./modules/Tech";
 import About from "./modules/About";
 import Quotes from "./modules/Quotes";
 import Footer from "./modules/Footer";
-import MobileMenu from "./modules/MobileMenu";
 // import SocialMedia from "./components/SocialMedia";
 import "./assets/styles/App.css";
 
@@ -36,14 +35,12 @@ function App() {
       <Intro />
       <hr className="main__hr" />
       <Experience />
-      {/* <hr className="main__hr" /> */}
       <Tech />
       <hr className="main__hr" />
       <About />
       <Quotes />
       <hr className="main__hr" />
       <Footer />
-      {/* <MobileMenu /> */}
       {/* <SocialMedia /> */}
     </div>
   );

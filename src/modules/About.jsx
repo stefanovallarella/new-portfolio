@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import RoundedRectangleVector from "../assets/img/rounded-rectangle-vector";
 import QuarterVector from "../assets/img/quarter-vector";
+import ReactMarkdown from "react-markdown";
+import remarkGemoji from "remark-gemoji";
 
 export default function About() {
   const { t } = useTranslation();
@@ -13,7 +15,11 @@ export default function About() {
           <span className="about__title-dot">.</span>
         </h2>
 
-        <p className="about__description">{t("about.description")}</p>
+        <div className="about__description">
+          <ReactMarkdown linkTarget="_blank" remarkPlugins={[remarkGemoji]}>
+            {t("about.description")}
+          </ReactMarkdown>
+        </div>
       </div>
       <RoundedRectangleVector />
       <QuarterVector />

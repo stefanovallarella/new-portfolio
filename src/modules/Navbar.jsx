@@ -39,11 +39,6 @@ export default function Navbar() {
       </div>
       <nav className="nav__container">
         <ul>
-          {/* <li>
-            <a href="#" data-section-id="home" onClick={handleClick}>
-              {t("navbar.home")}
-            </a>
-          </li> */}
           <li>
             <a href="#" data-section-id="work" onClick={handleClick}>
               {t("navbar.work")}

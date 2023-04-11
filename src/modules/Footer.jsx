@@ -1,9 +1,11 @@
 import { useTranslation } from "react-i18next";
 import ArrowLinkVector from "../assets/img/arrow-link-vector";
 import CopyrightVector from "../assets/img/copyright-vector";
+import SpanishCv from "../cv/spanish-cv-stefano-vallarella.pdf";
+import EnglishCv from "../cv/english-cv-stefano-vallarella.pdf";
 
 export default function Footer() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <div id="contact" className="footer global-max-width">
@@ -55,12 +57,11 @@ export default function Footer() {
             <div className="footer__social-hr"></div>{" "}
             <a
               className="footer__social-link"
+              href={i18n.language === "en" ? EnglishCv : SpanishCv}
               without
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.linkedin.com/in/stefanovallarella"
             >
-              {/* href={cvpdf} */}
               {t("footer.download")} <ArrowLinkVector />
             </a>
           </div>

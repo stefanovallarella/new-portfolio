@@ -16,56 +16,55 @@
       "date": "2019",
       "intro": "These are some responsabilities & projects I worked on at",
       "projects": [
-        "Rebuilt all the UX/UI for a platform built with Vue JS. Made a new version for every existing page, mobile-first and using self-created SVG files, icons and specific colors for each client.",
-        "Front-end work using React JS, Styled Components, custom CSS, Context API, Redux, and some custom behaviors related to new libraries.",
-        "Maintenance of existing React Native app for iOS/Android. Bug fixes and development of new features."
+        "Markup of different projects in HTML, CSS, SASS/SCSS.",
+        "Maintenance of websites in Wordpress.",
+        "Development of custom components using Javascript and Jquery."
       ],
-      "stack": ["Javascript", "VueJS", "NuxtJS", "Typescript", "ReactJS"]
+      "stack": ["Javascript", "HTML", "CSS", "SASS/SCSS", "Jquery"]
     },
     {
       "id": 2,
-      "title": "FullStack Developer",
+      "title": "Frontend Developer",
       "company": "EducaciónIT",
-      "companyUrl": "https://onlines.com.ar/",
+      "companyUrl": "https://www.educacionit.com/",
       "location": "Buenos Aires, Argentina.",
       "date": "2020",
       "intro": "These are some responsabilities & projects I worked on at",
       "projects": [
-        "Rebuilt all the UX/UI for a platform built with Vue JS. Made a new version for every existing page, mobile-first and using self-created SVG files, icons and specific colors for each client.",
-        "Front-end work using React JS, Styled Components, custom CSS, Context API, Redux, and some custom behaviors related to new libraries.",
-        "Maintenance of existing React Native app for iOS/Android. Bug fixes and development of new features."
+        "Development and maintenance of company's own applications/products using Vuejs / Nuxtjs / Typescript.",
+        "Participation in ideation, rethinking, analysis and development of applications/products in collaboration with Design, UX and team leaders.",
+        "Development of custom components from scratch."
       ],
-      "stack": ["Javascript", "VueJS", "NuxtJS", "Typescript", "ReactJS"]
+      "stack": ["Javascript", "VueJS", "NuxtJS", "Typescript", "SCSS/PostCSS"]
     },
     {
       "id": 3,
       "title": "FullStack Developer",
       "company": "EducaciónIT",
-      "companyUrl": "https://onlines.com.ar/",
+      "companyUrl": "https://www.educacionit.com/",
       "location": "Buenos Aires, Argentina.",
       "date": "2022",
       "intro": "These are some responsabilities & projects I worked on at",
       "projects": [
-        "Rebuilt all the UX/UI for a platform built with Vue JS. Made a new version for every existing page, mobile-first and using self-created SVG files, icons and specific colors for each client.",
-        "Front-end work using React JS, Styled Components, custom CSS, Context API, Redux, and some custom behaviors related to new libraries.",
-        "Maintenance of existing React Native app for iOS/Android. Bug fixes and development of new features."
+        "Development of public and private APIs to be consumed in company-owned products using Node.js, Typescript, Sequelize.",
+        "PDF generator with Puppeteer & Express."
       ],
-      "stack": ["Javascript", "VueJS", "NuxtJS", "Typescript", "ReactJS"]
+      "stack": ["Javascript", "Node.js", "Typescript", "SQL", "Sequelize"]
     },
     {
       "id": 4,
       "title": "FullStack Developer",
       "company": "Navent",
-      "companyUrl": "https://onlines.com.ar/",
+      "companyUrl": "https://navent.com/",
       "location": "Buenos Aires, Argentina.",
       "date": "2023",
       "intro": "These are some responsabilities & projects I worked on at",
       "projects": [
-        "Rebuilt all the UX/UI for a platform built with Vue JS. Made a new version for every existing page, mobile-first and using self-created SVG files, icons and specific colors for each client.",
-        "Front-end work using React JS, Styled Components, custom CSS, Context API, Redux, and some custom behaviors related to new libraries.",
-        "Maintenance of existing React Native app for iOS/Android. Bug fixes and development of new features."
+        "Development and maintenance of native Android applications using Kotlin.",
+        "Analysis, planning and development of new features for applications (Push Notifications with Firebase).",
+        "Configuration of Google Analytics events along the projects for metric tracking."
       ],
-      "stack": ["Javascript", "VueJS", "NuxtJS", "Typescript", "ReactJS"]
+      "stack": ["Android Studio", "Kotlin", "MVVM", "Firebase"]
     }
   ],
   "experience.end": "Present",
@@ -83,7 +82,7 @@
     "kotlin"
   ],
   "about.title": "About me",
-  "about.description": "Let me introduce myself. I am a Semi Senior Full Stack Developer with a strong passion for technology. I have amassed over two and a half years of experience in developing applications and websites using cutting-edge frameworks such as VueJS, ReactJS, and NuxtJS. My thirst for knowledge led me to take up a new challenge, and currently, I am working on developing Android native mobile apps in Kotlin.\n\nThroughout my journey, I've come to understand the importance of teamwork in achieving quality results and constant growth.\n\n I am currently employed at Navent, where I serve as a Full Stack Developer responsible for developing Android Native Mobile apps in Kotlin.\n\n My passion for programming ignited in 2019 when I started developing my own Android native apps in JAVA. After spending some time in the mobile app development world, I shifted my focus to web development, where I spent two years honing my skills in VueJS and NuxtJS. Apart from programming, I also enjoy working on graphic design in Adobe Photoshop and Adobe Illustrator, Figma, etc.\n\n As a Full Stack Developer, I bring to the table my excellent communication and active listening skills, a natural flair for teamwork, an eye for detail and critical thinking. \n\nIn my free time, I love to unwind by building my own projects, creating playlists, going to the gym, playing tennis & video games, and spending time with my friends.",
+  "about.description": "As a Semi Senior Full Stack Developer, I am committed to accessibility, efficiency, and attention to detail in everything I do. Since I was a child, I have always been passionate about technology :computer:. My professional journey began in 2019 when I developed my own native Android applications in JAVA. Since then, for over two and a half years, I have been honing my skills in developing applications and websites using modern frameworks such as VueJS, ReactJS, and NuxtJS.\n\nI had the opportunity to be part of end-to-end processes of high-traffic websites, where performance and accessibility were key :rocket: such as [EducacionIT](https://www.educacionit.com/) or [ISTEA](https://www.istea.edu.ar/).\n\nI am a firm believer that teamwork is essential to achieve quality learning and continuous improvement. Currently, I work at Navent developing native Android mobile applications in Kotlin, such as [Zonaprop](https://play.google.com/store/apps/details?id=com.zonaprop.android).\n\nIn addition to programming, I have also learned to apply UX/UI design principles :art: to create attractive and functional products that meet user needs.\n\nIn my free time :partly_sunny:, I love spending time building my own projects, creating playlists, working out, playing tennis & video games, spending time with friends, and pursuing my passion for [photography](https://www.instagram.com/stfvall/).",
   "quotes.quote1": "one day at a time",
   "quotes.quote2": "the mind is the limit",
   "footer.title": "Contact",
