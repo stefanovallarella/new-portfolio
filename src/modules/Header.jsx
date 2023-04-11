@@ -2,8 +2,10 @@ import Navbar from "./Navbar";
 
 export default function Header() {
   return (
-    <div className="header global-max-width">
-      <Navbar />
+    <div className="header">
+      <div className="global-max-width">
+        <Navbar />
+      </div>
     </div>
   );
 }

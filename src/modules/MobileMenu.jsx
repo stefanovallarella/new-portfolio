@@ -3,9 +3,11 @@ import HamburgerSvg from "../assets/img/hamburger-svg";
 import CrossSvg from "../assets/img/cross-svg";
 import { useState, useEffect } from "react";
 import LanguageSwitcher from "../components/LanguageSwitcher";
+import SpanishCv from "../cv/spanish-cv-stefano-vallarella.pdf";
+import EnglishCv from "../cv/english-cv-stefano-vallarella.pdf";
 
 export default function MenuMobileSwitcher() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -62,6 +64,16 @@ export default function MenuMobileSwitcher() {
           <li>
             <a href="#" data-section-id="contact" onClick={handleClick}>
               {t("navbar.contact")}
+            </a>
+          </li>
+          <li>
+            <a
+              href={i18n.language === "en" ? EnglishCv : SpanishCv}
+              without
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              {t("footer.resume")}
             </a>
           </li>
         </ul>

@@ -38,7 +38,7 @@ function App() {
       <Experience />
       {/* <hr className="main__hr" /> */}
       <Tech />
-      {/* <hr className="main__hr" /> */}
+      <hr className="main__hr" />
       <About />
       <Quotes />
       <hr className="main__hr" />

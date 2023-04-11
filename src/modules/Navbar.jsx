@@ -1,9 +1,11 @@
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 import MobileMenu from "./MobileMenu";
+import SpanishCv from "../cv/spanish-cv-stefano-vallarella.pdf";
+import EnglishCv from "../cv/english-cv-stefano-vallarella.pdf";
 
 export default function Navbar() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   function handleClick(e) {
     e.preventDefault();
@@ -58,7 +60,12 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#" without rel="noopener noreferrer" target="_blank">
+            <a
+              href={i18n.language === "en" ? EnglishCv : SpanishCv}
+              without
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               {t("footer.resume")}
             </a>
           </li>
