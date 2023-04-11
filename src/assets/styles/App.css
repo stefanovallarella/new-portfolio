@@ -191,6 +191,7 @@
   .header {
     position: relative;
     background-color: transparent;
+    border-bottom: none;
   }
 }
 
