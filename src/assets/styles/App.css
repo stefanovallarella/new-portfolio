@@ -141,17 +141,7 @@
 .nav__title {
   display: flex;
   align-items: center;
-  /* background-size: 100% 8px;
-  background-repeat: no-repeat;
-  background-position: 100% 90%;
-  transition: background-position 0.15s linear; */
 }
-
-/* .nav__title:hover {
-  background-image: linear-gradient(var(--color-primary), var(--color-primary));
-  background-position: 100% 80%;
-  transition: background-position 0.15s linear;
-} */
 
 .nav__title-name {
   display: inline-block;
@@ -202,15 +192,6 @@
 }
 
 /* Mobile Menu */
-
-.mobile-menu {
-  /* width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 99; */
-}
 
 .mobile-menu__icon {
   position: absolute;
@@ -341,6 +322,7 @@
 
 /* Social Media*/
 
+/*
 .social-media {
   width: 25px;
 
@@ -368,6 +350,7 @@
 .social-media__container:hover .social-media__icon path {
   fill: var(--color-secondary-dark);
 }
+*/
 
 .experience {
   position: relative;
@@ -583,7 +566,7 @@
 }
 
 .tech-marquee__marquee .marquee {
-  --duration: 30s !important;
+  --duration: 40s !important;
 }
 
 /* About section */
@@ -844,6 +827,8 @@
   margin: 0 5px;
 }
 
+/* Media queries - breakpoints */
+
 @media (min-width: 480px) {
   .intro__about-description {
     font-size: 30px;
@@ -985,7 +970,7 @@
   }
 
   .tech-marquee__marquee .marquee {
-    --duration: 46s !important;
+    --duration: 50s !important;
   }
 
   .about__title {

@@ -47,7 +47,7 @@
       "intro": "These are some responsabilities & projects I worked on at",
       "projects": [
         "Development of public and private APIs to be consumed in company-owned products using Node.js, Typescript, Sequelize.",
-        "PDF generator with Puppeteer & Express."
+        "Development and maintenance of dynamic applications (PDFs, certificates) made using JS, Vite, Express, Puppeteer, CSS3, HTML5."
       ],
       "stack": ["Javascript", "Node.js", "Typescript", "SQL", "Sequelize"]
     },
@@ -73,9 +73,12 @@
     "vuejs",
     "nuxtjs",
     "reactjs",
+    "tailwind",
+    "html5",
+    "css3",
+    "nodejs",
     "sequelize",
     "sql",
-    "tailwind",
     "aws",
     "docker",
     "android",
