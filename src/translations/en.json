@@ -64,7 +64,7 @@
         "Analysis, planning and development of new features for applications (Push Notifications with Firebase).",
         "Configuration of Google Analytics events along the projects for metric tracking."
       ],
-      "stack": ["Android Studio", "Kotlin", "MVVM", "Firebase"]
+      "stack": ["Android", "Kotlin", "MVVM", "Firebase"]
     }
   ],
   "experience.end": "Present",

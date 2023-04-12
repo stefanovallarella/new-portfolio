@@ -4,7 +4,7 @@
   "navbar.about": "Acerca de",
   "navbar.contact": "Contacto",
   "introabout.title": "¡Hola!",
-  "introabout.description": "Soy Stefano, desarrollador FullStack establecido en Rosario, Argentina.",
+  "introabout.description": "Soy Stefano, FullStack developer de Rosario, Argentina.",
   "experience.title": "Sobre mi experiencia",
   "experience.experiences": [
     {
@@ -64,7 +64,7 @@
         "Análisis, pensado y desarrollo de nuevas funcionalidades para las aplicaciones (Notificaciones Push con Firebase)",
         "Configuración de eventos de Google Analytics en los proyectos para el seguimiento de métricas."
       ],
-      "stack": ["Android Studio", "Kotlin", "MVVM", "Firebase"]
+      "stack": ["Android", "Kotlin", "MVVM", "Firebase"]
     }
   ],
   "experience.end": "Presente",
