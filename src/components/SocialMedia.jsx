@@ -1,6 +1,6 @@
 export default function SocialMedia() {
   return (
-    <div class="social-media">
+    <div className="social-media">
       <div className="social-media__container">
         <a
           href="https://www.linkedin.com/in/kenneth-jimmy-b84092191/"

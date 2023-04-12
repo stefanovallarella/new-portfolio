@@ -10,7 +10,7 @@ export default function Tech() {
         {t("tech.title")}
         <span className="tech__title-dot">.</span>
       </h2>
-      <div class="tech__slider">
+      <div className="tech__slider">
         <TechTechnologies />
       </div>
     </div>

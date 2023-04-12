@@ -16,8 +16,8 @@ export default function Experience() {
           <span className="experience__title-dot">.</span>
         </h2>
 
-        {experiences.map((experience) => (
-          <ExperienceItem experience={experience} />
+        {experiences.map((experience, i) => (
+          <ExperienceItem experience={experience} key={`experience-${i}`} />
         ))}
 
         <div className="experience__end">

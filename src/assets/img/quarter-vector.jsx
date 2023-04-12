@@ -1,6 +1,6 @@
 export default function QuarterVector() {
   return (
-    <div class="quarter-vector">
+    <div className="quarter-vector">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="76"

@@ -1,6 +1,6 @@
 export default function ArrowLinkVector({ width = 9, height = 8 }) {
   return (
-    <div class="arrow-link-vector">
+    <div className="arrow-link-vector">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width={width}

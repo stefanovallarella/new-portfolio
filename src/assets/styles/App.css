@@ -144,7 +144,6 @@
 }
 
 .nav__title-name {
-  display: inline-block;
   position: relative;
   font-weight: 300;
   font-size: 20px;
@@ -163,6 +162,14 @@
   background: var(--color-primary);
   transition: width 0.5s ease;
   z-index: -1;
+}
+
+.nav__title-name--desktop {
+  display: none;
+}
+
+.nav__title-name--mobile {
+  display: inline-block;
 }
 
 .nav__container {
@@ -936,6 +943,14 @@
 
   .nav__container {
     display: flex;
+  }
+
+  .nav__title-name--desktop {
+    display: inline-block;
+  }
+
+  .nav__title-name--mobile {
+    display: none;
   }
 
   .mobile-menu {

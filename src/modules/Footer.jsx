@@ -58,7 +58,6 @@ export default function Footer() {
             <a
               className="footer__social-link"
               href={i18n.language === "en" ? EnglishCv : SpanishCv}
-              without
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -68,9 +67,9 @@ export default function Footer() {
         </div>
 
         <div className="footer__copyright">
-          <p className="footer__copyright-text">
+          <div className="footer__copyright-text">
             {t("footer.copyright")} <CopyrightVector /> Stefano Vallarella
-          </p>
+          </div>
           <p className="footer__copyright-year">2023</p>
         </div>
       </div>

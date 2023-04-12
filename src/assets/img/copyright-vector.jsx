@@ -1,6 +1,6 @@
 export default function CopyrightVector() {
   return (
-    <div class="copyright-vector">
+    <div className="copyright-vector">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="19"

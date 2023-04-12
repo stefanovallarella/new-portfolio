@@ -1,6 +1,6 @@
 export default function TrapezoidVector() {
   return (
-    <div class="trapezoid-vector">
+    <div className="trapezoid-vector">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="72"

@@ -7,7 +7,7 @@ export default function Tech() {
   const technologies = t("tech.technologies", { returnObjects: true });
 
   return (
-    <div class="tech-marquee">
+    <div className="tech-marquee">
       <Marquee className="tech-marquee__marquee">
         <div>{technologies.join(" ")}&nbsp;</div>
         <div>{technologies.join(" ")}&nbsp;</div>

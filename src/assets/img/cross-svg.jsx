@@ -2,7 +2,7 @@ export default function CrossSvg() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      class="cross-mobile"
+      className="cross-mobile"
       width="30"
       height="30"
       viewBox="0 0 1024 1024"

@@ -2,10 +2,13 @@ export default function ExperienceItemContentProjects({ experience }) {
   return (
     <div className="experience-item__content-projects">
       <p className="experience-item__content-projects-intro">
-        {experience.intro}{" "}{experience.company}
+        {experience.intro} {experience.company}
       </p>
-      {experience.projects.map((project) => (
-        <div className="experience-item__content-project">
+      {experience.projects.map((project, i) => (
+        <div
+          className="experience-item__content-project"
+          key={`experience-item-project-${i}`}
+        >
           <div className="experience-item__content-project-svg">
             <svg
               xmlns="http://www.w3.org/2000/svg"

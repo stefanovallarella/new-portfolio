@@ -69,7 +69,6 @@ export default function MenuMobileSwitcher() {
           <li>
             <a
               href={i18n.language === "en" ? EnglishCv : SpanishCv}
-              without
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -78,7 +77,7 @@ export default function MenuMobileSwitcher() {
           </li>
         </ul>
 
-        <div class="mobile-menu__language">
+        <div className="mobile-menu__language">
           <LanguageSwitcher />
         </div>
       </div>

@@ -17,11 +17,7 @@ export default function Navbar() {
   return (
     <div className="nav">
       <div className="nav__title-container">
-        <a
-          href="https://www.linkedin.com/in/stefanovallarella/"
-          target="_blank"
-          className="nav__title"
-        >
+        <a href="#" className="nav__title">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="13"
@@ -34,7 +30,20 @@ export default function Navbar() {
               fill="#E34234"
             />
           </svg>
-          <p className="nav__title-name">Stefano Vallarella</p>
+          <p
+            className="nav__title-name nav__title-name--desktop"
+            data-section-id="about"
+            onClick={handleClick}
+          >
+            Stefano Vallarella
+          </p>
+          <p
+            className="nav__title-name nav__title-name--mobile"
+            data-section-id="home"
+            onClick={handleClick}
+          >
+            Stefano Vallarella
+          </p>
         </a>
       </div>
       <nav className="nav__container">
@@ -57,7 +66,6 @@ export default function Navbar() {
           <li>
             <a
               href={i18n.language === "en" ? EnglishCv : SpanishCv}
-              without
               rel="noopener noreferrer"
               target="_blank"
             >

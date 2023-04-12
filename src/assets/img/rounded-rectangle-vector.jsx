@@ -1,6 +1,6 @@
 export default function RoundedRectangleVector() {
   return (
-    <div class="rounded-rectangle-vector">
+    <div className="rounded-rectangle-vector">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="56"
