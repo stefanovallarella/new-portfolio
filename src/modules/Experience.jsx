@@ -17,12 +17,18 @@ export default function Experience() {
         </h2>
 
         {experiences.map((experience, i) => (
-          <ExperienceItem experience={experience} key={`experience-${i}`} />
+          <ExperienceItem
+            experience={experience}
+            key={`experience-${i}`}
+            i={i}
+          />
         ))}
 
-        <div className="experience__end">
-          <div className="experience__end-circle"></div>
-          {t("experience.end")}
+        <div className="experience__end-container">
+          <p className="experience__end">
+            <span className="experience__end-circle"></span>
+            {t("experience.start")}
+          </p>
         </div>
       </div>
       <PhoneVector />

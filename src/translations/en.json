@@ -9,21 +9,35 @@
   "experience.experiences": [
     {
       "id": 1,
-      "title": "Frontend Developer",
-      "company": "Onlines & co.",
-      "companyUrl": "https://onlines.com.ar/",
-      "location": "Rosario, Argentina.",
-      "date": "2019",
+      "title": "FullStack Developer",
+      "company": "Navent",
+      "companyUrl": "https://navent.com/",
+      "location": "Buenos Aires, Argentina.",
+      "date": "2023",
       "intro": "These are some responsabilities & projects I worked on at",
       "projects": [
-        "Markup of different projects in HTML, CSS, SASS/SCSS.",
-        "Maintenance of websites in Wordpress.",
-        "Development of custom components using Javascript and Jquery."
+        "Development and maintenance of native Android applications using Kotlin.",
+        "Analysis, planning and development of new features for applications (Push Notifications with Firebase).",
+        "Configuration of Google Analytics events along the projects for metric tracking."
       ],
-      "stack": ["Javascript", "HTML", "CSS", "SASS/SCSS", "Jquery"]
+      "stack": ["Android", "Kotlin", "MVVM", "Firebase"]
     },
     {
       "id": 2,
+      "title": "FullStack Developer",
+      "company": "EducaciónIT",
+      "companyUrl": "https://www.educacionit.com/",
+      "location": "Buenos Aires, Argentina.",
+      "date": "2022",
+      "intro": "These are some responsabilities & projects I worked on at",
+      "projects": [
+        "Development of public and private APIs to be consumed in company-owned products using Node.js, Typescript, Sequelize.",
+        "Development and maintenance of dynamic applications (PDFs, certificates) made using JS, Vite, Express, Puppeteer, CSS3, HTML5."
+      ],
+      "stack": ["Javascript", "Node.js", "Typescript", "SQL", "Sequelize"]
+    },
+    {
+      "id": 3,
       "title": "Frontend Developer",
       "company": "EducaciónIT",
       "companyUrl": "https://www.educacionit.com/",
@@ -38,36 +52,23 @@
       "stack": ["Javascript", "VueJS", "NuxtJS", "Typescript", "SCSS/PostCSS"]
     },
     {
-      "id": 3,
-      "title": "FullStack Developer",
-      "company": "EducaciónIT",
-      "companyUrl": "https://www.educacionit.com/",
-      "location": "Buenos Aires, Argentina.",
-      "date": "2022",
-      "intro": "These are some responsabilities & projects I worked on at",
-      "projects": [
-        "Development of public and private APIs to be consumed in company-owned products using Node.js, Typescript, Sequelize.",
-        "Development and maintenance of dynamic applications (PDFs, certificates) made using JS, Vite, Express, Puppeteer, CSS3, HTML5."
-      ],
-      "stack": ["Javascript", "Node.js", "Typescript", "SQL", "Sequelize"]
-    },
-    {
       "id": 4,
-      "title": "FullStack Developer",
-      "company": "Navent",
-      "companyUrl": "https://navent.com/",
-      "location": "Buenos Aires, Argentina.",
-      "date": "2023",
+      "title": "Frontend Developer",
+      "company": "Onlines & co.",
+      "companyUrl": "https://onlines.com.ar/",
+      "location": "Rosario, Argentina.",
+      "date": "2019",
       "intro": "These are some responsabilities & projects I worked on at",
       "projects": [
-        "Development and maintenance of native Android applications using Kotlin.",
-        "Analysis, planning and development of new features for applications (Push Notifications with Firebase).",
-        "Configuration of Google Analytics events along the projects for metric tracking."
+        "Markup of different projects in HTML, CSS, SASS/SCSS.",
+        "Maintenance of websites in Wordpress.",
+        "Development of custom components using Javascript and Jquery."
       ],
-      "stack": ["Android", "Kotlin", "MVVM", "Firebase"]
+      "stack": ["Javascript", "HTML", "CSS", "SASS/SCSS", "Jquery"]
     }
   ],
   "experience.end": "Present",
+  "experience.start": "Beginning",
   "tech.title": "technologies I work with",
   "tech.technologies": [
     "vuejs",
